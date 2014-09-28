@@ -15,4 +15,4 @@ script:
 - export EXEEXT=.exe
 - export WINEDEBUG=-all
 - chmod -R +x ./
-- script.bat
+- cmd.exe /C script.bat
