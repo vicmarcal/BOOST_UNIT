@@ -1,0 +1,1 @@
+for /R %%i in (*.exe) do %%i
