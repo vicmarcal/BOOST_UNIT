@@ -15,4 +15,4 @@ script:
 - export EXEEXT=.exe
 - export WINEDEBUG=-all
 - chmod -R +x ./
-- wine cmd /C for /R %i in (*.exe) do %i
+- wine cmd /C script.bat
